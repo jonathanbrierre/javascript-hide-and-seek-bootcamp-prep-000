@@ -27,5 +27,4 @@ function increaseRankBy(n) {
     list2[i].innerHTML = (parseInt(list2[i].innerHTML) + n).toString()
   }
   
- console.log(list)
 }
