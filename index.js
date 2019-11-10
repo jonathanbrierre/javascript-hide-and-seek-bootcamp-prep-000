@@ -19,12 +19,12 @@ function deepestChild(){
 function increaseRankBy(n) {
   const list = document.querySelectorAll('ul.ranked-list')[0]
   for (let i =0;i<list.length;i++){
-    list.innerHTML = (parseInt(list.innerHTML) + n).toString()
+    list[i].innerHTML = (parseInt(list[i].innerHTML) + n).toString()
   }
   
    const list2 = document.querySelectorAll('ul.ranked-list')[1]
   for (let i =0;i<list.length;i++){
-    list2.innerHTML = (parseInt(list2.innerHTML) + n).toString()
+    list2[i].innerHTML = (parseInt(list2[i].innerHTML) + n).toString()
   }
   
 }
